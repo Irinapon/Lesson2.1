@@ -1,7 +1,7 @@
-const titleProject = "Оценка стоимости";
-const screensValue = "шаблонные, с уникальным дизайном, с анимациями";
-const screenPrice = 5000;
-const percentage = 10;
-const fullPrice = 150000;
-const responsive = true;
+let titleProject = "Оценка стоимости";
+let screensValue = "шаблонные, с уникальным дизайном, с анимациями";
+let screenPrice = 5000;
+let percentage = 10;
+let fullPrice = 150000;
+let responsive = true;
 console.log(titleProject, screensValue, screenPrice, percentage, fullPrice, responsive);
