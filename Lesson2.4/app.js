@@ -21,21 +21,16 @@ let fullPrice = getFullPrice();
 console.log("fullPrice =", fullPrice);
 
 // 3. Создай функцию getTitle.
-
-let titleProject = "Kao corporation's PROJECT";
-
-function fixWords(text) {
-  text = text.replace(/corporation/i, (match) => {
-    return match[0].toUpperCase() + match.slice(1).toLowerCase();
-  });
-
-  text = text.replace(/project/i, "project");
-
-  return text;
+function getTitle(title) {
+  return title[0].toUpperCase() + title.slice(1).toLowerCase();
 }
+let titleProject = prompt("Введите название проекта:");
+titleProject = getTitle(titleProject);
 
-titleProject = fixWords(titleProject);
-console.log(titleProject); // "Kao Corporation's project"
+console.log("Название проекта:", titleProject);
+
+
+
 
 //4. Создай функцию getServicePercentPrices
 let percent = 10;
